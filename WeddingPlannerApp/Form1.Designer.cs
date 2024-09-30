@@ -1,6 +1,6 @@
 ﻿namespace WeddingPlannerApp
 {
-    partial class Form1
+    partial class HomePage
     {
         /// <summary>
         /// Required designer variable.
@@ -28,94 +28,105 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblAppsname = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.AboutUsButoon = new System.Windows.Forms.Button();
+            this.servicebutton = new System.Windows.Forms.Button();
+            this.profileButton = new System.Windows.Forms.Button();
+            this.lblLogo = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.backButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblAppsname
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Vladimir Script", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.label1.Location = new System.Drawing.Point(64, 88);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(599, 73);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "A Journey To The Aisle ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lblAppsname.AutoSize = true;
+            this.lblAppsname.Font = new System.Drawing.Font("Vladimir Script", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAppsname.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.lblAppsname.Location = new System.Drawing.Point(48, 72);
+            this.lblAppsname.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblAppsname.Name = "lblAppsname";
+            this.lblAppsname.Size = new System.Drawing.Size(483, 58);
+            this.lblAppsname.TabIndex = 0;
+            this.lblAppsname.Text = "A Journey To The Aisle ";
+            this.lblAppsname.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Location = new System.Drawing.Point(77, 340);
+            this.panel1.Controls.Add(this.AboutUsButoon);
+            this.panel1.Controls.Add(this.servicebutton);
+            this.panel1.Controls.Add(this.profileButton);
+            this.panel1.Location = new System.Drawing.Point(58, 276);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(634, 60);
+            this.panel1.Size = new System.Drawing.Size(476, 49);
             this.panel1.TabIndex = 2;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
             // 
-            // button3
+            // AboutUsButoon
             // 
-            this.button3.BackColor = System.Drawing.Color.BurlyWood;
-            this.button3.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Ivory;
-            this.button3.Location = new System.Drawing.Point(497, 0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(134, 59);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "About Us";
-            this.button3.UseVisualStyleBackColor = false;
+            this.AboutUsButoon.BackColor = System.Drawing.Color.BurlyWood;
+            this.AboutUsButoon.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AboutUsButoon.ForeColor = System.Drawing.Color.Ivory;
+            this.AboutUsButoon.Location = new System.Drawing.Point(373, 0);
+            this.AboutUsButoon.Margin = new System.Windows.Forms.Padding(2);
+            this.AboutUsButoon.Name = "AboutUsButoon";
+            this.AboutUsButoon.Size = new System.Drawing.Size(100, 48);
+            this.AboutUsButoon.TabIndex = 2;
+            this.AboutUsButoon.Text = "About Us";
+            this.AboutUsButoon.UseVisualStyleBackColor = false;
+            this.AboutUsButoon.Click += new System.EventHandler(this.AboutUsButoon_Click);
             // 
-            // button2
+            // servicebutton
             // 
-            this.button2.BackColor = System.Drawing.Color.BurlyWood;
-            this.button2.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Ivory;
-            this.button2.Location = new System.Drawing.Point(253, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(134, 60);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Services";
-            this.button2.UseVisualStyleBackColor = false;
+            this.servicebutton.BackColor = System.Drawing.Color.BurlyWood;
+            this.servicebutton.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.servicebutton.ForeColor = System.Drawing.Color.Ivory;
+            this.servicebutton.Location = new System.Drawing.Point(190, 0);
+            this.servicebutton.Margin = new System.Windows.Forms.Padding(2);
+            this.servicebutton.Name = "servicebutton";
+            this.servicebutton.Size = new System.Drawing.Size(100, 49);
+            this.servicebutton.TabIndex = 1;
+            this.servicebutton.Text = "Services";
+            this.servicebutton.UseVisualStyleBackColor = false;
+            this.servicebutton.Click += new System.EventHandler(this.servicebutton_Click);
             // 
-            // button1
+            // profileButton
             // 
-            this.button1.BackColor = System.Drawing.Color.BurlyWood;
-            this.button1.Font = new System.Drawing.Font("Microsoft Uighur", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Ivory;
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 59);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Profile";
-            this.button1.UseVisualStyleBackColor = false;
+            this.profileButton.BackColor = System.Drawing.Color.BurlyWood;
+            this.profileButton.Font = new System.Drawing.Font("Microsoft Uighur", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profileButton.ForeColor = System.Drawing.Color.Ivory;
+            this.profileButton.Location = new System.Drawing.Point(0, 0);
+            this.profileButton.Margin = new System.Windows.Forms.Padding(2);
+            this.profileButton.Name = "profileButton";
+            this.profileButton.Size = new System.Drawing.Size(100, 48);
+            this.profileButton.TabIndex = 0;
+            this.profileButton.Text = "Profile";
+            this.profileButton.UseVisualStyleBackColor = false;
+            this.profileButton.Click += new System.EventHandler(this.profileButton_Click);
             // 
-            // label2
+            // lblLogo
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Rockwell", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(200, 161);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(369, 33);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "\"Simplify your dream day\"";
+            this.lblLogo.AutoSize = true;
+            this.lblLogo.Font = new System.Drawing.Font("Rockwell", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogo.Location = new System.Drawing.Point(150, 131);
+            this.lblLogo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblLogo.Name = "lblLogo";
+            this.lblLogo.Size = new System.Drawing.Size(298, 27);
+            this.lblLogo.TabIndex = 3;
+            this.lblLogo.Text = "\"Simplify your dream day\"";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::WeddingPlannerApp.Properties.Resources.silhouette_3754208_1920;
-            this.pictureBox2.Location = new System.Drawing.Point(270, 212);
+            this.pictureBox2.Location = new System.Drawing.Point(202, 172);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(220, 122);
+            this.pictureBox2.Size = new System.Drawing.Size(165, 99);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -123,40 +134,44 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WeddingPlannerApp.Properties.Resources.alphabet_word_images_1295152_1920;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 25);
+            this.pictureBox1.Location = new System.Drawing.Point(9, 20);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1273, 426);
+            this.pictureBox1.Size = new System.Drawing.Size(955, 346);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // button4
+            // backButton
             // 
-            this.button4.BackColor = System.Drawing.Color.SeaShell;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.Tomato;
-            this.button4.Location = new System.Drawing.Point(683, 12);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 35);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "X";
-            this.button4.UseVisualStyleBackColor = false;
+            this.backButton.BackColor = System.Drawing.Color.SeaShell;
+            this.backButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backButton.ForeColor = System.Drawing.Color.Tomato;
+            this.backButton.Location = new System.Drawing.Point(533, 0);
+            this.backButton.Margin = new System.Windows.Forms.Padding(2);
+            this.backButton.Name = "backButton";
+            this.backButton.Size = new System.Drawing.Size(56, 28);
+            this.backButton.TabIndex = 5;
+            this.backButton.Text = "X";
+            this.backButton.UseVisualStyleBackColor = false;
+            this.backButton.Click += new System.EventHandler(this.button4_Click);
             // 
-            // Form1
+            // HomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button4);
+            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.backButton);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblLogo);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblAppsname);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "HomePage";
             this.Text = " ";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
@@ -169,15 +184,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblAppsname;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button AboutUsButoon;
+        private System.Windows.Forms.Button servicebutton;
+        private System.Windows.Forms.Button profileButton;
+        private System.Windows.Forms.Label lblLogo;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button backButton;
     }
 }
 

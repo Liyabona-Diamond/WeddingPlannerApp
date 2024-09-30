@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WeddingPlannerApp
 {
-    public partial class Form1 : Form
+    public partial class HomePage : Form
     {
-        public Form1()
+        public HomePage()
         {
             InitializeComponent();
         }
@@ -33,6 +33,35 @@ namespace WeddingPlannerApp
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void profileButton_Click(object sender, EventArgs e)
+        {
+            Form3 profileForm = new Form3();
+
+            profileForm.Show();
+        }
+
+        private void servicebutton_Click(object sender, EventArgs e)
+        {
+            Form2 serviceForm = new Form2();
+            serviceForm.Show();
+        }
+
+        private void AboutUsButoon_Click(object sender, EventArgs e)
+        {
+            Form9 AbouUsForm = new Form9();
+            AbouUsForm.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
         {
 
         }
