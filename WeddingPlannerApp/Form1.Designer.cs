@@ -1,6 +1,6 @@
 ﻿namespace WeddingPlannerApp
 {
-    partial class HomePage
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -157,7 +157,7 @@
             this.backButton.UseVisualStyleBackColor = false;
             this.backButton.Click += new System.EventHandler(this.button4_Click);
             // 
-            // HomePage
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -171,7 +171,7 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "HomePage";
+            this.Name = "Form1";
             this.Text = " ";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
