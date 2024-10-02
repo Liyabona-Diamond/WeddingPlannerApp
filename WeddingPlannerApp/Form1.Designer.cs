@@ -70,7 +70,7 @@
             // AboutUsButoon
             // 
             this.AboutUsButoon.BackColor = System.Drawing.Color.BurlyWood;
-            this.AboutUsButoon.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AboutUsButoon.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AboutUsButoon.ForeColor = System.Drawing.Color.Ivory;
             this.AboutUsButoon.Location = new System.Drawing.Point(373, 0);
             this.AboutUsButoon.Margin = new System.Windows.Forms.Padding(2);
@@ -84,12 +84,12 @@
             // servicebutton
             // 
             this.servicebutton.BackColor = System.Drawing.Color.BurlyWood;
-            this.servicebutton.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.servicebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.servicebutton.ForeColor = System.Drawing.Color.Ivory;
             this.servicebutton.Location = new System.Drawing.Point(190, 0);
             this.servicebutton.Margin = new System.Windows.Forms.Padding(2);
             this.servicebutton.Name = "servicebutton";
-            this.servicebutton.Size = new System.Drawing.Size(100, 49);
+            this.servicebutton.Size = new System.Drawing.Size(110, 49);
             this.servicebutton.TabIndex = 1;
             this.servicebutton.Text = "Services";
             this.servicebutton.UseVisualStyleBackColor = false;
@@ -98,12 +98,12 @@
             // profileButton
             // 
             this.profileButton.BackColor = System.Drawing.Color.BurlyWood;
-            this.profileButton.Font = new System.Drawing.Font("Microsoft Uighur", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.profileButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.profileButton.ForeColor = System.Drawing.Color.Ivory;
-            this.profileButton.Location = new System.Drawing.Point(0, 0);
+            this.profileButton.Location = new System.Drawing.Point(15, 2);
             this.profileButton.Margin = new System.Windows.Forms.Padding(2);
             this.profileButton.Name = "profileButton";
-            this.profileButton.Size = new System.Drawing.Size(100, 48);
+            this.profileButton.Size = new System.Drawing.Size(122, 48);
             this.profileButton.TabIndex = 0;
             this.profileButton.Text = "Profile";
             this.profileButton.UseVisualStyleBackColor = false;

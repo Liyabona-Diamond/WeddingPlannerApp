@@ -42,22 +42,24 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.SeaShell;
-            this.label5.Font = new System.Drawing.Font("Microsoft Uighur", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Tomato;
-            this.label5.Location = new System.Drawing.Point(283, 9);
+            this.label5.Location = new System.Drawing.Point(212, 7);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(227, 72);
+            this.label5.Size = new System.Drawing.Size(267, 55);
             this.label5.TabIndex = 6;
             this.label5.Text = "User Login";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Tomato;
-            this.button1.Location = new System.Drawing.Point(234, 322);
+            this.button1.Location = new System.Drawing.Point(159, 262);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 65);
+            this.button1.Size = new System.Drawing.Size(129, 53);
             this.button1.TabIndex = 9;
             this.button1.Text = "LOG IN";
             this.button1.UseVisualStyleBackColor = true;
@@ -65,11 +67,12 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Tomato;
-            this.button2.Location = new System.Drawing.Point(452, 322);
+            this.button2.Location = new System.Drawing.Point(320, 262);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(135, 65);
+            this.button2.Size = new System.Drawing.Size(134, 53);
             this.button2.TabIndex = 10;
             this.button2.Text = "SIGN UP";
             this.button2.UseVisualStyleBackColor = true;
@@ -78,9 +81,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::WeddingPlannerApp.Properties.Resources.user_2935373_1920;
-            this.pictureBox2.Location = new System.Drawing.Point(197, 104);
+            this.pictureBox2.Location = new System.Drawing.Point(148, 84);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(209, 201);
+            this.pictureBox2.Size = new System.Drawing.Size(157, 163);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
@@ -88,9 +92,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WeddingPlannerApp.Properties.Resources.user_2160923_1920;
-            this.pictureBox1.Location = new System.Drawing.Point(412, 104);
+            this.pictureBox1.Location = new System.Drawing.Point(309, 84);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(209, 201);
+            this.pictureBox1.Size = new System.Drawing.Size(157, 163);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
@@ -98,21 +103,22 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.SeaShell;
-            this.button3.Font = new System.Drawing.Font("Microsoft Uighur", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Tomato;
-            this.button3.Location = new System.Drawing.Point(687, 9);
+            this.button3.Location = new System.Drawing.Point(515, 7);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 39);
+            this.button3.Size = new System.Drawing.Size(68, 32);
             this.button3.TabIndex = 11;
             this.button3.Text = "X";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // Form7
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaShell;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -120,6 +126,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form7";
             this.Text = "Form7";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
