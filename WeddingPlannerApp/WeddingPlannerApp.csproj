@@ -182,5 +182,89 @@
   <ItemGroup>
     <None Include="Resources\user-2160923_1920.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wedding gown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15+ Brides Who Dared to Choose a Very Unusual Outfit for Their Wedding and Stunned Everyone.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agatha - Ivory _ 10 _ Extra-Length.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Light Grey Three Piece Suit for Men - Formal Wedding, Business, or Special Occasions - Tailored Suit - The Rising Sun store, Vardo.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Black tuxedo.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Simon Slim Fit High Quality Shawl Collar Black Tuxedo Suıt - EU 50 - US 40_ UK 40 _ 36W.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A Romantic Pink Miramonte Resort Wedding in Palm Desert.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nike %27I Do%27 Shoes.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stay Golden - WedLuxe Magazine.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bridal rings at KAY.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wedding _ Bridal _ Formal Necklace Set _ Color_ Silver _ Size_ Os.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1pair Gold Leaf Lapel Pin For Men &amp; Women%27s Shirt &amp; Suit, Unisex Lover Gift Collar Clips.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22 Amazing Details for A Cosy Winter Wedding _ weddingsonline.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snacks.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Afro-fusion restaurant _ Tabys Café &amp; Restaurant.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Best Butter Chicken Recipe.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34 Unique Wedding Food Dessert Table Display Ideas - Mrs to Be.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Best Cupcake Ideas _ Kitchen Fun With My 3 Sons.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wedding Cake Alternatives Guide for 2024 _ Wedding Forward.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Drinks.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wedding drinks.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The Best Wedding Drink Menu Ideas.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 Best Spring Wedding Color Palette Ideas To Help Inspire You For Your Special Day - Francisca%27s Bridal.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9 Enchanting Spring Wedding Themes_ Inspiring Color Ideas, Decor, Favors, and More.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pink Dreams_ 16 Stylish Ideas for a Pink Wedding.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
